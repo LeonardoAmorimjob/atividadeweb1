@@ -1,0 +1,74 @@
+.divfundo{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 0px;
+	bottom: 0px;
+	width: 1050px;
+	height:650px;
+	background-color: #b0b0b0;
+}
+.divcarro{
+	position: absolute;
+	top: 220px;
+	left: 275px;
+	right: 0px;
+	bottom: 0px;
+	width: 775px;
+	height:430px;
+	background-color: #b0b0b0;
+}
+.divtexto{
+	position: absolute;
+	top: 230px;
+	left:0px;
+	right: 0px;
+	bottom: 0px;
+	width: 275px;
+	height:420px;
+	background-color: #b0b0b0;
+	text-decoration:underline;
+	line-height:5px;
+	font-size: 16px;
+}
+.divlogo{
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 275px;
+	height:130px;
+	background-color: #b0b0b0;
+}
+.divrodape{
+	position: absolute;
+	top: 620px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 1050px;
+	height:35px;
+	background-color: #000000;
+	color:#ffffff;
+	text-align: center;
+	line-height: 10px;
+	font-size:16px;
+}
+.carro{
+	width: 775px;
+	height:430px;
+}
+.logo{
+	width:275px;
+	height:130px;
+	
+}
+hr{
+
+	border-style: solid;
+
+	border-color:#000000;
+
+	
+}

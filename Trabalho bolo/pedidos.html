@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+		<script src="JavaScript1.js"></script>
+		<title>formpedidos</title>
+	</head>
+	<body class="pagesbody">
+		<header>
+		<a href="index.html">
+			<img src="images/logo2.png" width="330px" height="200px" alt="My Logo">
+		</a>
+		<a class="links" href="contato.html">
+			CONTATO
+		</a>
+		<a class="links" href="sobre.html">
+			SOBRE
+		</a>
+		<a class="links" href="lojas.html">
+			LOJAS
+		</a>
+		<a class="links" href="pedidos.html">
+			PEDIDOS
+		</a>
+		</header>
+		<div class="background-image"></div>	  
+		<div class="divformpedido">
+			<form>
+				<fieldset>
+					<legend class="fontepedidos">Contato</legend>
+					<p><label for="cnome">Nome:    <input type="text" name="cnome" id="cnome" size="40"style="margin-left:4px" placeholder="Digite o Nome do contato"></p>
+					<p><label for="ctelefone">Tel:<input type="text" name="ctelefone" size="15" id="ctelefone" style="margin-left:29px" placeholder="(xx)_____-_____"></p>
+					<p><label for="cendereco">Rua:     <input type="text" name="endereco" size="25"style="margin-left:17px" id="cendereco"placeholder="estrada,rua, avenida..."> 
+						n:  <input type="text" name="cnumerocasa" id="cnumerocasa" style="margin-left:5px"size="2" maxlength="5" placeholder="99999"></p>
+					<p>Comp.:   <input type="text" name="complemeto" id="ccomplemeto"style="margin-left:0px" placeholder="condominio,bl, ap...">
+					<p><label for="Bairro">Bairro   <input type="text" style="margin-left:8px"name="bairro" size="10" id="cbairro">
+				</fieldset>
+				<fieldset>
+					<legend class="fontepedidos">Pedido:</legend>
+					<p>Bolo de maracuja<label for="qtdm"> Qtd    <input type="text"  name="qtdm" size="1" maxlength="2" style="margin-left:4px" id="qtdm"placeholder="99">
+					<p>Bolo de morango<label for="qtdmo"> Qtd     <input type="text" name="qtdmo" size="1"maxlength="2" style="margin-left:7px" id="qtdmo"placeholder="99"></p>
+					<p>Bolo de chocolate<label for="qtdc"> Qtd   <input type="text" name="qtdc" size="1"maxlength="2" style="margin-left:2px" id="qtdc"placeholder="99"></p>
+					<p>Bolo de abacaxi<label for="qtda"> Qtd  <input type="text" name="qtda" size="1"maxlength="2" style="margin-left:14px" id="qtda"placeholder="99"></p>
+					 R$ 6,00 o peda&ccedilo
+				</fieldset>
+				<fieldset>
+					<legend class="fontepedidos">Formas de Pagamento</legend><br>
+					<input type="radio" name="pagamento"id="dinheiro" checked>Dinherio
+					<input type="radio" name="pagamento"id="cartao">Cartão
+					<input type="radio" name="pagamento"id="dinheiroecartao" >Dinherio e cartão
+				</fieldset>		
+				<button class="btpedidos" onclick="Enviapedido();">Enviar</button>
+			</form>
+					
+					
+		</div>
+			
+	</body>
+</html>
